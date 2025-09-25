@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Natori – Premium Clothing Brand",
     description:
-      "Full Shopify setup from scratch to live. & Worked on refining color swatches for product pages, developed a static block linked to the Rewards page, resolved UX issues, and improved site layout for smoother customer interaction.",
+      "Full Shopify setup from scratch to live. & Worked on refining color swatches for product pages, developed a static block linked to the Rewards page, resolved UX issues, and improved site layout for smoother customer interaction.....",
     image: "/projects/natori.png",
     tags: ["Shopify", "Liquid", "UX", "Frontend"],
     demoUrl: "https://www.natori.com",
@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "Miller Rocks – Automation Project",
     description:
-      "Built backend automation flow using n8n: FTP → XML → CSV → Shopify Order Import. Deployed on Azure with HTTPS support and automated scheduling.",
+      "Built backend automation flow using n8n: FTP → XML → CSV → Shopify Order Import. Deployed on Azure with HTTPS support and automated scheduling.....",
     image: "/projects/millerrocks.png",
     tags: ["Shopify", "Automation", "n8n", "Azure"],
     demoUrl: "https://miller-rock.myshopify.com",
@@ -23,7 +23,7 @@ const projects = [
     id: 3,
     title: "BeMinimum – Clothing & Lifestyle Brand",
     description:
-      "Implemented custom theme enhancements for fashion products. Improved product page layouts with size guides, variant selectors, and styled collection pages.",
+      "Implemented custom theme enhancements for fashion products. Improved product page layouts with size guides, variant selectors, and styled collection pages.....",
     image: "/projects/beminimum.png",
     tags: ["Shopify", "Liquid", "Theme Customization"],
     demoUrl: "https://beminimum.com",
@@ -32,7 +32,7 @@ const projects = [
     id: 4,
     title: "Vishal Peripherals – Electronics & PC Store",
     description:
-      "Full Shopify setup from scratch to live. Built a custom PC Builder page with compatibility filters, mega menu with grandchild links, multiple CMS pages (About, Awards, Media, Policies), Shiprocket integration, and n8n automation for FTP → Shopify product sync.",
+      "Full Shopify setup from scratch to live. Built a custom PC Builder page with compatibility filters, mega menu with grandchild links, multiple CMS pages (About, Awards, Media, Policies), Shiprocket integration, and n8n automation for FTP → Shopify product sync.....",
     image: "/projects/vishalperipherals.png",
     tags: ["Shopify", "Liquid", "JavaScript", "n8n", "Automation"],
     demoUrl: "https://vishalperipherals.com",
@@ -41,7 +41,7 @@ const projects = [
     id: 5,
     title: "District Camera – Camera & Electronics Store",
     description:
-      "Customized Shopify Dawn theme, added custom scripts for UI (dealer login handling, input field rearrangement, section toggling), and performed mobile responsiveness and CMS improvements.",
+      "Customized Shopify Dawn theme, added custom scripts for UI (dealer login handling, input field rearrangement, section toggling), and performed mobile responsiveness and CMS improvements.....",
     image: "/projects/DC.png",
     tags: ["Shopify", "Liquid", "JavaScript", "Theme Customization"],
     demoUrl: "https://www.districtcamera.com",
@@ -50,7 +50,7 @@ const projects = [
     id: 6,
     title: "American Flame Monitoring – Industrial Brand",
     description:
-      "Enhanced CMS pages with accordions, tables, hero banners, and brand sections. Improved responsive design and organized content layout for better UI/UX.",
+      "Enhanced CMS pages with accordions, tables, hero banners, and brand sections. Improved responsive design and organized content layout for better UI/UX.....",
     image: "/projects/Americanflame.png",
     tags: ["Shopify", "Liquid", "CMS Customization"],
     demoUrl: "https://www.americanflamemonitoring.com",
@@ -59,7 +59,7 @@ const projects = [
     id: 7,
     title: "3DXTech – 3D Printing Materials",
     description:
-      "Improved site functionality by refining checkout, cart, and payment pages. Ensured smooth flow from product selection to checkout for better customer experience.",
+      "Improved site functionality by refining checkout, cart, and payment pages. Ensured smooth flow from product selection to checkout for better customer experience.....",
     image: "/projects/3dx.png",
     tags: ["Shopify", "Liquid", "Checkout Customization"],
     demoUrl: "https://www.3dxtech.com",
@@ -68,7 +68,7 @@ const projects = [
     id: 8,
     title: "IdeelArt – Contemporary Art Gallery",
     description:
-      "Enhanced Shopify frontend, optimized theme, fixed bugs, and customized page layouts. Assisted with pre-launch optimization.",
+      "Enhanced Shopify frontend, optimized theme, fixed bugs, and customized page layouts. Assisted with pre-launch optimization.....",
     image: "/projects/ideelart.png",
     tags: ["Shopify", "Liquid", "Frontend"],
     demoUrl: "https://www.ideelart.com",
