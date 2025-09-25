@@ -8,29 +8,32 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 function App() {
-  useEffect(() => {
-    // Smooth scroll-like effect
-    let sections = gsap.utils.toArray("section");
+useEffect(() => {
+  let sections = gsap.utils.toArray("section");
 
-    sections.forEach((section) => {
-      gsap.fromTo(
-        section,
-        { opacity: 0, y: 50 },
-        {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: section,
-            start: "top 80%", // when 80% visible
-            end: "bottom 60%",
-            scrub: true, // smooth scroll effect
-          },
-          duration: 1.2,
-          ease: "power3.out",
-        }
-      );
-    });
-  }, []);
+  sections.forEach((section) => {
+    // Skip the projects section
+    if (section.id === "projects") return;
+
+    gsap.fromTo(
+      section,
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        scrollTrigger: {
+          trigger: section,
+          start: "top 80%", // when 80% visible
+          end: "bottom 60%",
+          scrub: true,
+        },
+        duration: 1.2,
+        ease: "power3.out",
+      }
+    );
+  });
+}, []);
+
   return (
     <>
       <Toaster />
